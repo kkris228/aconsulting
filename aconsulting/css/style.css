@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&family=Montserrat&display=swap');
+.page{
+  background-color: #252B42;
+}
+#header{
+  font-family: 'Montserrat';
+  background-image: url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  width: 1440px;
+  height: 851px;
+  background-color: #252B42;
+  color: white;
+}
+.nav{
+  width: 1322px;
+  height: 104px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 150px;
+  align-items: center;
+}
+#header .nav h3{
+  margin: 0;
+  padding-right: 501px;
+  padding-left: 175px;
+}
+.navbar{
+  font-weight: bold;
+  list-style-type: none;
+  width: 373px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu{
+  padding-left: 140px;
+}
+.intro{
+  width: 1046px;
+  height: 747px;
+  margin: 0 197px 58px 197px;
+  text-align: center;
+}
+.main_intro h1{
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  width: 573px;
+  height: 143px;
+  font-weight: bold;
+  font-size: 58px;
+}
+.main_intro p{
+  width: 539px;
+  height: 60px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-bottom: 40px; 
+  font-weight: 500;
+}
+.intro button{
+  width: 185px;
+  height: 48px;
+  border-radius: 37px;
+  color: white;
+  margin-bottom: 120px;
+}
+.intro .left_button{
+  border: none;
+  background: #FF7B47;
+}
+.intro .right_button{
+  border-color: white;
+  background: rgba(0,0,0,0);
+}
+.stats{
+  display: flex;
+  background: white;
+  gap: 30px;
+  width: 1049px;
+  height: 96px;
+}
+.stat_element{
+  color: black;
+  display: flex;
+  align-items: center;
+  width: 230px;
+  height: 96px;
+}
+.stat_element img{
+  margin: 24px 0 24px 20px;
+}
+.stat_element div h3{
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+.stat_element div{
+  text-align: left;
+  padding-left: 15px;
+}
+.stat_element div p{
+  padding-left: 0;
+  margin: 0;
+}
+.activities{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1440px;
+  height: 474px;
+  gap: 40px;
+  justify-content: center;
+  background: #252B42;
+}
+.activities div{
+  width: 230px;
+  height: 290px;
+  background: white;
+}
+.activities div img{
+  padding: 40px 140px 32px 40px;
+}
+.activities div h1{
+  font-size: 16px;
+  padding-left: 40px;
+  margin: 0;
+}
+.activities div p{
+  color: #737373;
+  padding-left: 40px;
+  width: 148px;
+  height: 40px;
+}
+.activities div button{
+  width: 124px;
+  height: 48px;
+  color: #0D5C63;
+  border: 1px solid;
+  border-radius: 37px;  
+  margin-left: 40px;
+}
+.activities .last{
+  color: white;
+  background-color: #0D5C63; 
+}
+.activities .last p{
+  color: white;
+}
+.activities .last button{
+  background-color: white;
+  border: none;
+}
